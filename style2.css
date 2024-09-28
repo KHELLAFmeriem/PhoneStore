@@ -1,0 +1,158 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.cmd{
+    height: 30px;
+ background-color: gray;
+    width: 100%;
+
+}
+.cmd p{
+    color: rgb(255, 255, 255) ;
+    font-size: 17px;
+text-align: center;
+padding-top: 5px;
+}
+.cmd span{
+    color: rgba(31, 15, 24, 0.852);
+   animation: blink 1s infinite;
+}
+@keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .navbar{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    background-color: rgb(53, 49, 52);
+    height: 45px;
+
+  }
+  .navbar img{
+    height: 100px;
+    width: 100px;
+    margin-left: 150px;
+  }
+  .navbar .i1 i{
+    color: var(--first-color);
+    background-color: gray;
+    padding: 5px;
+    margin-left: 10px;
+  }
+ 
+  .navbar ul li i{
+    color: white;
+  }
+  .navbar ul{
+    display: flex;
+    gap: 40px;
+    margin-right: 20px;
+list-style: none;
+  }
+.body{
+    background-color: var(--first-color);
+    display: flex;
+    justify-content: space-around;
+    height: 90vh;
+  }
+ img{
+    height: 500px;
+    width: 400px;   
+}
+h1{
+    margin-top: 90px;
+    color: var(--second-color);
+    font-size: 25px;
+    width: 250px;
+    margin-bottom: 5px;
+}
+.titre{
+    border-bottom: 6px solid var(--third-color);
+    width: 70px;
+   
+}
+
+.text{
+    width: 600px;
+    font-size: 15px;
+    color: var(--second-color);
+    margin-top: 20px;
+
+}
+.price{
+    color: var(--second-color);
+}
+.ul{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--first-color);
+    color: var(--f-color);
+    margin-top: 30px;
+}
+
+.ul ul span{
+    color: var(--a-color);
+    font-size: larger;
+}
+.btn1 button{
+color: var(--second-color);
+background-color: var(--first-color);
+border: 1px solid  ;
+padding: 10px 20px;
+margin-top: 15px;
+}
+.btn1 button:hover{
+    color: var(--third-color);
+    background-color: var(--first-color);
+    border-color: var(--third-color);
+}
+.btn2 button{
+    color: var(--second-color);
+    background-color: 	rgb(37, 211, 102);
+    border: 1px solid  rgb(37, 211, 102);
+    padding: 10px 20px;
+    margin-top: 15px;
+    }
+    .btn2 button i{
+        font-size: 20px;
+        margin-right: 4px;
+}
+.price{
+    margin-top: -30px;
+    margin-left: 100px;
+}
+.price span{
+    color: blue;
+    text-decoration: line-through;
+}
+:root{
+  --first-color:black;
+  --second-color:white;
+  --third-color:rgb(255 ,0,255);
+  --f-color:aliceblue;
+  --s-color:rgb(255, 255, 255);
+  --m-color:rgb(226, 221, 221);
+  --a-color: rgb(209, 209, 209);
+}
+
+.navbar ul li a{
+  color: white;
+}
+.whiteMode{
+  --first-color:white ;
+  --second-color: black;
+  --third-color: rgb(255, 0, 255);
+  --f-color:rgb(42, 44, 46);
+  --s-color:rgb(44, 42, 42);
+  --m-color:rgb(27, 26, 26);
+  --a-color: rgb(40, 38, 38);
+}
